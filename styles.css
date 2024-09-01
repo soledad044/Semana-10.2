@@ -1,0 +1,63 @@
+/* Estilos comunes para ambas páginas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0; /* Un color de fondo verde claro */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #2e8b57; /* Verde mar */
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+input {
+    border: 2px solid #2e8b57;
+    width: calc(100% - 22px); /* Ajusta el ancho teniendo en cuenta el padding y el borde */
+}
+
+button {
+    border: none;
+    background-color: #2e8b57; /* Verde mar */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3cb371; /* Verde medio */
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#data {
+    font-weight: bold;
+    color: #2e8b57; /* Verde mar */
+    font-size: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2e8b57; /* Verde mar */
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #2e8b57; /* Añadir borde verde */
+    border-radius: 5px;
+    background-color: #e0f2e9; /* Fondo verde claro */
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #c8e6c9; /* Verde más claro */
+}
